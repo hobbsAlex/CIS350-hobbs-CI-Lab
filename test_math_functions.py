@@ -14,3 +14,17 @@ def test_calc_multiply():
 def test_calc_divide():
     output = divide_numbers(10,2)
     assert output == 5
+
+def test_calc_larger():
+    output = larger_number(8,2)
+    assert output == 8
+def test_calc_smaller():
+    output = smaller_number(5,3)
+    assert output == 3
+
+def test_calc_larger2():
+    output = larger_number(1,-7)
+    assert output == 1
+def test_calc_smaller2():
+    output = smaller_number(-2,-1)
+    assert output == -2
